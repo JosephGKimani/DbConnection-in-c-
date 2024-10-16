@@ -13,7 +13,7 @@ class Program
     public static void InsertData(string value1, string value2)
     {
         // Connection string to connect to the database
-        string connString = @"Data Source=PR3DATA;Initial Catalog=GitongaShopDb;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
+        string connString = @"Paste your connection string here";
 
         // Create a new SqlConnection object
         using (SqlConnection sqlConnection = new SqlConnection(connString))
@@ -54,7 +54,7 @@ class Program
 
     public static void GetData()
     {
-        string connString = @"Data Source=PR3DATA;Initial Catalog=GitongaShopDb;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
+        string connString = @"Paste your connection string here";
 
         using (SqlConnection sqlConnection = new SqlConnection(connString))
         {
